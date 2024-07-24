@@ -1,3 +1,5 @@
+# tamamen lineer bağımsız
+
 from sklearn.preprocessing import OneHotEncoder
 import numpy as np 
 

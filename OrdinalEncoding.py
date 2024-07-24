@@ -1,3 +1,5 @@
+#sıralanabilir olanlar için
+
 from sklearn.preprocessing import OrdinalEncoder
 import numpy as np
 
