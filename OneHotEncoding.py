@@ -2,7 +2,7 @@
 
 from sklearn.preprocessing import OneHotEncoder
 import numpy as np 
-
+#encoderlar kategorik veriler olduğu için arraye çeviririz.
 data = np.array([['Apricot'],['Watermelon'],['Cherry']])
 
 encoder = OneHotEncoder(categories=[['Apricot','Watermelon','Cherry']]) 
